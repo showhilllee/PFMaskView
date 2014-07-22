@@ -54,12 +54,21 @@
     self.userInteractionEnabled = YES;
 
     //设置背景颜色
-    if (self.color) self.backgroundColor = self.color;
-    else self.backgroundColor = [UIColor clearColor];
+    if (self.color) {
+        self.backgroundColor = self.color;
+    } else {
+        self.color = [UIColor blackColor];
+        self.alpha = 0.5;
+    }
 
     //点击手势
     UITapGestureRecognizer *recognizer = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapped:)];
     [self addGestureRecognizer:recognizer];
+}
+
+//设置颜色
+- (void)setColor:(UIColor *)color {
+    self.backgroundColor = color;
 }
 
 //点击屏幕时回调代理方法
@@ -85,8 +94,10 @@
 - (void)maskViewShowInView:(UIView *)view
 {
     self.isShow = YES;
-    if (!view) [[UIApplication sharedApplication].delegate.window.rootViewController.view addSubview:self];
-    else [view addSubview:self];
+    if (!view)
+        [[UIApplication sharedApplication].delegate.window.rootViewController.view addSubview:self];
+    else
+        [view addSubview:self];
 }
 
 //隐藏MaskView

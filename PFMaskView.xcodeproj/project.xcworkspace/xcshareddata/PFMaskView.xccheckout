@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>B97007E9-24FC-4989-8FE9-D01F42D8F41F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PFMaskView</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7DBE1AFC-BAD8-4AEA-BA3E-5916573033E2</key>
+		<string>https://github.com/showhilllee/PFMaskView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PFMaskView.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7DBE1AFC-BAD8-4AEA-BA3E-5916573033E2</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/showhilllee/PFMaskView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7DBE1AFC-BAD8-4AEA-BA3E-5916573033E2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7DBE1AFC-BAD8-4AEA-BA3E-5916573033E2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PFMaskView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
