@@ -40,6 +40,15 @@
     return self;
 }
 
+- (instancetype)initOnView:(UIView*)view
+{
+    self = [super initWithFrame:view.frame];
+    if (self) {
+        [self layoutSubviews:view.frame];
+    }
+    return self;
+}
+
 //设置MaskView
 - (void)layoutSubviews:(CGRect)frame
 {
@@ -69,6 +78,7 @@
 //设置颜色
 - (void)setColor:(UIColor *)color {
     self.backgroundColor = color;
+    self.alpha = 1;
 }
 
 //点击屏幕时回调代理方法

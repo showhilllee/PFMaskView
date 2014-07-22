@@ -46,7 +46,7 @@
     [self.view addSubview:self.tableView];
 
     if (!self.maskView)
-        self.maskView = [[PFMaskView alloc] initWithFrame:self.tableView.frame];
+        self.maskView = [[PFMaskView alloc] initOnView:self.tableView];
     
     self.maskView.delegate = self;
 }

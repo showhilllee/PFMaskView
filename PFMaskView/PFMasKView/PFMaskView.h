@@ -26,6 +26,11 @@
 @property (nonatomic, assign) id<PFMaskViewDelegate> delegate;
 
 /**
+ *  @brief 在某个界面上初始化MaskView
+ */
+- (instancetype)initOnView:(UIView*)view;
+
+/**
  *  @brief 显示MaskView
  */
 - (void)maskViewShowInView:(UIView *)view;
